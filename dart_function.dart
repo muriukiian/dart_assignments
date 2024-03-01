@@ -1,28 +1,28 @@
+double addTwo(double a, double b) {
+  return a + b;
+}
+
+double subtractTwo(double a, double b) {
+  return a - b;
+}
+
+double multiplyTwo(double a, double b) {
+  return a * b;
+}
+
+double divideTwo(double a, double b) {
+  return a / b;
+}
+
+int stringLength(String a) {
+  return a.length;
+}
+
+dynamic getFirstElement(List) {
+  return List[0];
+}
+
 void main() {
-  double addTwo(double a, double b) {
-    return a + b;
-  }
-
-  double subtractTwo(double a, double b) {
-    return a - b;
-  }
-
-  double multiplyTwo(double a, double b) {
-    return a * b;
-  }
-
-  double divideTwo(double a, double b) {
-    return a / b;
-  }
-
-  int stringLength(String a) {
-    return a.length;
-  }
-
-  dynamic getFirstElement(List) {
-    return List[0];
-  }
-
   print(addTwo(4, 46));
   print(subtractTwo(67, 56));
   print(multiplyTwo(67, 34));
