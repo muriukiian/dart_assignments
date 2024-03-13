@@ -14,16 +14,16 @@ void main() {
   bahbah.makeSounds();
   //An instance of a class that is initialized with data from a file
   //read data from a file.
-  //File file = File('person_data.txt');
-  //List<String> lines = file.readAsLinesSync();
+  File file = File('person_data.txt');
+  List<String> lines = file.readAsLinesSync();
   //Extract name and age from the file.
-  //String name = lines[0];
-  //int age = int.parse(lines[1]);
+  String name = lines[0];
+  int age = int.parse(lines[1]);
   //initialize a person instance with the collected data
-  //Person person1 = Person(name, age);
+  Person person1 = Person(name, age);
   //print person details
-  //print('Person details');
-  //print(person1.toString());
+  print('Person details');
+  print(person1.toString());
 
   //Creating an instance of loopDemo
   loopDemo a = loopDemo();
